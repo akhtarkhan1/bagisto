@@ -3,7 +3,6 @@
     $comparableAttributes = $attributeRepository->findByField('is_comparable', 1);
 @endphp
 
-
 @push('scripts')
     <script type="text/x-template" id="compare-product-template">
         <section class="comparison-component">
